@@ -9,6 +9,64 @@
 </head>
 
 <body>
+  <!-- Header goes here -->
+  <header>
+    <div class="wrapper">
+      <div class="flex-container">
+        <div class="logo">
+          <h1>LOGO</h1>
+        </div>
+        <div class="controls">
+          <p>
+            <span id="start-stop" onclick="startDrag()">Start</span>
+            |
+            <span id="restart" onclick="restart()">Restart</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main goes here -->
+  <main>
+    <div class="wrapper">
+      <h2>Set your Priorities</h2>
+      <div class="flex-container">
+        <div class="flexbox">
+          <div class="boxes">
+            <h3 class="high">High</h3>
+            <div class="drop-area" id="high"></div>
+          </div>
+        </div>
+        <div class="flexbox">
+          <div class="boxes">
+            <h3 class="medium">Medium</h3>
+            <div class="drop-area" id="medium"></div>
+          </div>
+        </div>
+        <div class="flexbox">
+          <div class="boxes">
+            <h3 class="low">Low</h3>
+            <div class="drop-area" id="low"></div>
+          </div>
+        </div>
+      </div>
+      <div class="tasks">
+        <ul>
+          <li id="task-1">Task 1</li>
+          <li id="task-2">Task 2</li>
+          <li id="task-3">Task 3</li>
+          <li id="task-4">Task 4</li>
+          <li id="task-5">Task 5</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <!-- Footer goes here -->
+  <footer>
+    <div class="wrapper">
+      <p>LOGO</p>
+    </div>
+  </footer>
 
   <script src="./assets/js/script.js"></script>
 </body>
